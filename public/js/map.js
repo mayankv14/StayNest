@@ -1,0 +1,16 @@
+const map = L.map('map').setView(
+  [coordinates[1], coordinates[0]],
+  13
+);
+
+L.tileLayer(
+  'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+  {
+    maxZoom: 10,
+  }
+).addTo(map);
+
+L.marker([
+  coordinates[1],
+  coordinates[0]
+]).addTo(map);
