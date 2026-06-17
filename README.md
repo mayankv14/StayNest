@@ -38,6 +38,45 @@ https://staynest-ctd4.onrender.com
 ### Sign Up
 <img src="screenshots/signup.png" width="700">
 
+## ⚙️ Installation
+
+git clone https://github.com/mayankv14/StayNest.git
+
+cd StayNest
+
+npm install
+
+npm start
+
+## 🔐 Environment Variables
+
+Create a .env file and add:
+
+CLOUD_NAME=
+CLOUD_API_KEY=
+CLOUD_API_SECRET=
+
+ATLASDB_URL=
+
+SECRET=
+
+## 🏗️ Architecture
+
+- MVC (Model View Controller) Pattern
+- RESTful Routing
+- MongoDB Atlas Database
+- Passport.js Authentication
+- Express Sessions
+- Cloudinary Image Storage
+
+  ## 🚧 Challenges Faced
+
+- Implementing authentication with Passport.js
+- Integrating Cloudinary image uploads
+- Deploying the application on Render
+- Managing MongoDB Atlas connections
+- Handling session-based authentication
+
 ### Frontend
 
 * HTML
