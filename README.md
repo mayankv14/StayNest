@@ -21,6 +21,23 @@ https://staynest-ctd4.onrender.com
 
 ## 🛠️ Tech Stack
 
+## 📸 Screenshots
+
+### Home Page
+ <img src="screenshots/home.png" width="700">
+
+### Listing Details
+ <img src="screenshots/listing-details.png" width="700">
+
+### Create Listing
+ <img src="screenshots/create-listing.png" width="700">
+
+### Login
+ <img src="screenshots/login.png" width="700">
+
+### Sign Up
+<img src="screenshots/signup.png" width="700">
+
 ### Frontend
 
 * HTML
