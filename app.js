@@ -98,6 +98,10 @@ app.use((req,res,next) => { // flash success and error middleware
 //     res.send(registeredUser);
 // });
 
+app.get("/", (req, res) => {
+    res.redirect("/listings");
+});
+
 app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
