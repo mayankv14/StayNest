@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const initData = require("./data.js");
 const Listing = require("../models/listing.js");
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
+const MONGO_URL = "mongodb://mayankv1406_db_user:HVK77PtFLk3ZsHSd@ac-t3orwyv-shard-00-00.eq7tgqg.mongodb.net:27017,ac-t3orwyv-shard-00-01.eq7tgqg.mongodb.net:27017,ac-t3orwyv-shard-00-02.eq7tgqg.mongodb.net:27017/?ssl=true&replicaSet=atlas-rq6cir-shard-0&authSource=admin&appName=Cluster0";
 
 main()
   .then(() => {
