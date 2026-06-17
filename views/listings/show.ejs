@@ -10,7 +10,10 @@
       alt="listing_image"
     />
     <div class="card-body">
-      <p class="card-text">Owned by <i><%= listing.owner.username %></i></p>
+       <p class="card-text">
+      Owned by
+      <i><%= listing.owner ? listing.owner.username : "Unknown User" %></i>
+      </p>
       <br>
         
         <p class="card-text"><%= listing.description %> </p>
@@ -33,7 +36,7 @@
   <br />
 
 
-  <% if(currUser && listing.owner._id.equals(currUser._id))  {%> 
+   <% if(currUser && listing.owner && listing.owner._id.equals(currUser._id)) { %>
 
   <div class="btns">
     <a
