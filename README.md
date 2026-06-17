@@ -97,8 +97,7 @@ utils/
 
 ## 👨‍💻 Author
 
-Mayank Vishwakarma
+B.Tech CSIT Student | Full-Stack Java & Web Development Enthusiast
 
-B.Tech CSIT Student
-
-IPS Academy, Indore
+GitHub: https://github.com/mayankv14
+LinkedIn: https://www.linkedin.com/in/mayank-v14/
