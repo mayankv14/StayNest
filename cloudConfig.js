@@ -17,7 +17,8 @@ const storage = new CloudinaryStorage({
 
 console.log("NAME =", process.env.CLOUD_NAME);
 console.log("KEY =", process.env.CLOUD_API_KEY);
-console.log("SECRET =", process.env.CLOUD_API_SECRET);
+console.log("SECRET =", process.env.CLOUD_API_SECRET.length);
+// console.log("SECRET =", process.env.CLOUD_API_SECRET);
 
 module.exports = {
     cloudinary,
