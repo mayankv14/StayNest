@@ -24,11 +24,14 @@ const userRouter = require("./routes/user.js");
 
 const dbUrl = process.env.ATLASDB_URL;
 
-main()
-    .then(() => {
+ main()
+.then(() => {
     console.log("connected to DB");
+    app.listen(8080, () => {
+        console.log("server is listening to port 8080");
+    });
 })
-    .catch((err) => {
+.catch((err) => {
     console.log(err);
 });
 
@@ -110,6 +113,4 @@ app.use((err, req, res, next) => {
     // res.status(statusCode).send(message);
 });
 
-app.listen(8080, () => {
-    console.log("server is listening to port 8080");
-});
+ 
